@@ -1,7 +1,7 @@
 //
-//  Created by Robert Petras
-//  Credo Academy ♥ Design and Code
-//  https://credo.academy
+//  Hike
+//
+//  Created by Zafran on 15/07/2024.
 //
 
 import SwiftUI
@@ -136,11 +136,11 @@ struct SettingsView: View {
         
         CustomListRowView(rowLabel: "Version", rowIcon: "gear", rowContent: "1.0", rowTintColor: .purple)
         
-        CustomListRowView(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "John Doe", rowTintColor: .mint)
+        CustomListRowView(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "Zafran Zaman", rowTintColor: .mint)
         
-        CustomListRowView(rowLabel: "Designer", rowIcon: "paintpalette", rowContent: "Robert Petras", rowTintColor: .pink)
+        CustomListRowView(rowLabel: "Designer", rowIcon: "paintpalette", rowContent: "Zafran", rowTintColor: .pink)
         
-        CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowTintColor: .indigo, rowLinkLabel: "Credo Acedemy", rowLinkDestination: "https://credo.academy")
+        CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowTintColor: .indigo, rowLinkLabel: "Zafran Zaman", rowLinkDestination: "ZafranZaman")
         
       } //: SECTION
     } //: LIST

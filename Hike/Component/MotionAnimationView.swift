@@ -1,7 +1,7 @@
 //
-//  Created by Robert Petras
-//  Credo Academy ♥ Design and Code
-//  https://credo.academy
+//  Hike
+//
+//  Created by Zafran on 15/07/2024.
 //
 
 import SwiftUI

@@ -11,6 +11,15 @@
 		9F48763A2C44E6ED00019A6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4876392C44E6ED00019A6D /* ContentView.swift */; };
 		9F48763C2C44E6EF00019A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F48763B2C44E6EF00019A6D /* Assets.xcassets */; };
 		9F48763F2C44E6EF00019A6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F48763E2C44E6EF00019A6D /* Preview Assets.xcassets */; };
+		9F4876472C44E76700019A6D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4876462C44E76700019A6D /* SettingsView.swift */; };
+		9F48764B2C44E78400019A6D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4876482C44E78400019A6D /* ColorExtension.swift */; };
+		9F48764C2C44E78400019A6D /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4876492C44E78400019A6D /* GradientButtonStyle.swift */; };
+		9F4876542C44E79A00019A6D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48764D2C44E79A00019A6D /* CardView.swift */; };
+		9F4876552C44E79A00019A6D /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48764E2C44E79A00019A6D /* CustomBackgroundView.swift */; };
+		9F4876562C44E79A00019A6D /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48764F2C44E79A00019A6D /* CustomButtonView.swift */; };
+		9F4876572C44E79A00019A6D /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4876502C44E79A00019A6D /* CustomCircleView.swift */; };
+		9F4876582C44E79A00019A6D /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4876512C44E79A00019A6D /* CustomListRowView.swift */; };
+		9F4876592C44E79A00019A6D /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4876522C44E79A00019A6D /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		9F4876392C44E6ED00019A6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F48763B2C44E6EF00019A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F48763E2C44E6EF00019A6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F4876462C44E76700019A6D /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9F4876482C44E78400019A6D /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		9F4876492C44E78400019A6D /* GradientButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		9F48764D2C44E79A00019A6D /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9F48764E2C44E79A00019A6D /* CustomBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		9F48764F2C44E79A00019A6D /* CustomButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		9F4876502C44E79A00019A6D /* CustomCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		9F4876512C44E79A00019A6D /* CustomListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
+		9F4876522C44E79A00019A6D /* MotionAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,9 @@
 		9F4876362C44E6ED00019A6D /* Hike */ = {
 			isa = PBXGroup;
 			children = (
-				9F4876372C44E6ED00019A6D /* HikeApp.swift */,
-				9F4876392C44E6ED00019A6D /* ContentView.swift */,
+				9F4876532C44E79A00019A6D /* Component */,
+				9F48764A2C44E78400019A6D /* Utility */,
+				9F4876452C44E72400019A6D /* Views */,
 				9F48763B2C44E6EF00019A6D /* Assets.xcassets */,
 				9F48763D2C44E6EF00019A6D /* Preview Content */,
 			);
@@ -65,6 +84,38 @@
 				9F48763E2C44E6EF00019A6D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F4876452C44E72400019A6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F4876462C44E76700019A6D /* SettingsView.swift */,
+				9F4876372C44E6ED00019A6D /* HikeApp.swift */,
+				9F4876392C44E6ED00019A6D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F48764A2C44E78400019A6D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9F4876482C44E78400019A6D /* ColorExtension.swift */,
+				9F4876492C44E78400019A6D /* GradientButtonStyle.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9F4876532C44E79A00019A6D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				9F48764D2C44E79A00019A6D /* CardView.swift */,
+				9F48764E2C44E79A00019A6D /* CustomBackgroundView.swift */,
+				9F48764F2C44E79A00019A6D /* CustomButtonView.swift */,
+				9F4876502C44E79A00019A6D /* CustomCircleView.swift */,
+				9F4876512C44E79A00019A6D /* CustomListRowView.swift */,
+				9F4876522C44E79A00019A6D /* MotionAnimationView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4876472C44E76700019A6D /* SettingsView.swift in Sources */,
+				9F48764C2C44E78400019A6D /* GradientButtonStyle.swift in Sources */,
+				9F4876582C44E79A00019A6D /* CustomListRowView.swift in Sources */,
+				9F4876572C44E79A00019A6D /* CustomCircleView.swift in Sources */,
 				9F48763A2C44E6ED00019A6D /* ContentView.swift in Sources */,
+				9F4876562C44E79A00019A6D /* CustomButtonView.swift in Sources */,
 				9F4876382C44E6ED00019A6D /* HikeApp.swift in Sources */,
+				9F4876542C44E79A00019A6D /* CardView.swift in Sources */,
+				9F4876592C44E79A00019A6D /* MotionAnimationView.swift in Sources */,
+				9F48764B2C44E78400019A6D /* ColorExtension.swift in Sources */,
+				9F4876552C44E79A00019A6D /* CustomBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
